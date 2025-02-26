@@ -1,0 +1,62 @@
+﻿/* Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* Login Page Styles */
+.container {
+    width: 400px;
+    margin: 100px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    background-color: #8B0000; /* Maroon Color */
+    color: #fff;
+    font-size: 24px;
+    padding: 20px;
+    text-align: center;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.content {
+    padding: 30px;
+}
+
+.user,
+.lock {
+    width: calc(100% - 40px);
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+}
+
+.forgot-grid {
+    margin-bottom: 20px;
+}
+
+.checkbox {
+    margin-top: 5px;
+}
+
+.registration {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #555;
+}
+
+    .registration a {
+        color: #8B0000; /* Maroon Color */
+        text-decoration: none;
+    }
+
+        .registration a:hover {
+            text-decoration: underline;
+        }

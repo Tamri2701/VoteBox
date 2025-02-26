@@ -1,0 +1,61 @@
+﻿/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Light gray background */
+    margin: 0;
+    padding: 0;
+}
+
+/* Main container styles */
+.main-page {
+    color: #000000; /* Black text color */
+    padding: 50px;
+}
+
+/* Title styles */
+.title1 {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+/* Form container styles */
+.sign-up-row {
+    background-color: #ffffff; /* White background for the sign-up form */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+}
+
+/* Form control styles */
+.form-control {
+    width: 100%;
+    border: 1px solid #ced4da; /* Light gray border */
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Button styles */
+.btn-primary {
+    background-color: #800000; /* Maroon background for submit button */
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    color: #ffffff; /* White text color */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    .btn-primary:hover {
+        background-color: #8b0000; /* Darker maroon on hover */
+    }
+
+/* Registration link styles */
+.registration a {
+    color: #800000; /* Maroon color for the registration link */
+    text-decoration: none;
+}
+
+    .registration a:hover {
+        text-decoration: underline;
+    }

@@ -1,0 +1,76 @@
+﻿/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #800000; /* Maroon text color */
+}
+/* Centering the GridView container */
+#form1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* GridView styling */
+#gvVotes {
+    width: 80%; /* Adjust the width as needed */
+    border-collapse: collapse;
+    margin-top: 20px;
+    max-width: 800px; /* Set a maximum width if desired */
+}
+
+
+
+/* GridView styling */
+#gvVotes {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+    #gvVotes th, #gvVotes td {
+        border: 1px solid #800000; /* Maroon border for header and cells */
+        padding: 8px;
+        text-align: left;
+    }
+
+    /* Header row styling */
+    #gvVotes th {
+        background-color: #800000; /* Maroon background for header */
+        color: #ffffff; /* White text color for header */
+    }
+
+    /* Footer row styling */
+    #gvVotes tfoot {
+        background-color: #ffffff; /* White background for footer */
+    }
+
+    /* Alternating row styling */
+    #gvVotes tr:nth-child(even) {
+        background-color: #f9f9f9; /* Light gray background for even rows */
+    }
+
+    /* Selected row styling */
+    #gvVotes tr.selectedRow {
+        background-color: #b30000; /* Darker maroon background for selected rows */
+        color: #ffffff; /* White text color for selected rows */
+    }
+
+/* Success message styling */
+#lblSuccessMessage {
+    color: #008000; /* Green text color for success messages */
+}
+
+/* Error message styling */
+#lblErrorMessage {
+    color: #ff0000; /* Red text color for error messages */
+}
+.scrolled {
+    background-color: #000000 !important; /* Black background for the navbar */
+    color: #ffffff !important; /* White text color for the navbar links */
+}
+
+.scrolled .navbar-brand {
+    color: #ffffff !important; /* White text color for the "Vote" text */
+}
